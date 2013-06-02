@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "GuestBook", "GuestBook\GuestBook.ccproj", "{219F5124-41D8-49FA-9294-3AE9463685D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestBook_WebRole", "GuestBook_WebRole\GuestBook_WebRole.csproj", "{1E258834-959B-4EFE-852F-A1AC2B4C485A}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GuestBook_Data", "GuestBook_Data\GuestBook_Data.fsproj", "{175BB685-A8AE-4E52-83EB-EC18EB4C2364}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GuestBook_WebApp", "GuestBook_WebApp\GuestBook_WebApp.fsproj", "{0EEE5041-C9DD-4810-B8B8-8E18AA10BEE9}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GuestBook_Storage", "GuestBook_Storage\GuestBook_Storage.fsproj", "{AC17E6F9-35DE-4EFF-8BA6-FD64DE247F72}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GuestBook_WorkerRole", "GuestBook_WorkerRole\GuestBook_WorkerRole.fsproj", "{E4840E4F-C2EB-431F-A2B8-75F08B5764A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A0710F08-A9F1-44B7-9065-1BF604E90596}"
+	ProjectSection(SolutionItems) = preProject
+		License.txt = License.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{219F5124-41D8-49FA-9294-3AE9463685D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219F5124-41D8-49FA-9294-3AE9463685D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219F5124-41D8-49FA-9294-3AE9463685D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219F5124-41D8-49FA-9294-3AE9463685D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E258834-959B-4EFE-852F-A1AC2B4C485A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E258834-959B-4EFE-852F-A1AC2B4C485A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E258834-959B-4EFE-852F-A1AC2B4C485A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E258834-959B-4EFE-852F-A1AC2B4C485A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{175BB685-A8AE-4E52-83EB-EC18EB4C2364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175BB685-A8AE-4E52-83EB-EC18EB4C2364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175BB685-A8AE-4E52-83EB-EC18EB4C2364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175BB685-A8AE-4E52-83EB-EC18EB4C2364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EEE5041-C9DD-4810-B8B8-8E18AA10BEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EEE5041-C9DD-4810-B8B8-8E18AA10BEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EEE5041-C9DD-4810-B8B8-8E18AA10BEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EEE5041-C9DD-4810-B8B8-8E18AA10BEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC17E6F9-35DE-4EFF-8BA6-FD64DE247F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC17E6F9-35DE-4EFF-8BA6-FD64DE247F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC17E6F9-35DE-4EFF-8BA6-FD64DE247F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC17E6F9-35DE-4EFF-8BA6-FD64DE247F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4840E4F-C2EB-431F-A2B8-75F08B5764A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4840E4F-C2EB-431F-A2B8-75F08B5764A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4840E4F-C2EB-431F-A2B8-75F08B5764A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4840E4F-C2EB-431F-A2B8-75F08B5764A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
